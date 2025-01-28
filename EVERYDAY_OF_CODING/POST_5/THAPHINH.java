@@ -1,6 +1,4 @@
-package ZVN;
-
-import java.util.Scanner;
+package JAVA;
 
 public class THAPHINH {
 	public static void main(String[] args) {
@@ -9,13 +7,7 @@ public class THAPHINH {
 		String record="";
 		String shape="";
 		String number="";
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		sc.close();
-		/*output;
-		 * +1=
-		 * 222
-		 * +3= */
+		int n=7;
 		for (int i=1;i<=n/2;i++) {
 			plus="+".repeat((n-(2*i-1))/2);
 			number=(i+"").repeat(2*i-1);

@@ -1,4 +1,4 @@
-package ZENDVN;
+package JAVA;
 
 public class CHRISTMASTREE {
 	public static void main(String[] args) {
